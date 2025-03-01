@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ramadan Mubarak Animation</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #3f45ee;
+        font-family: "Arial", sans-serif;
+        margin: 0;
+        padding: 100px 0 0 0;
+      }
+      .container {
+        text-align: center;
+        transition: transform 0.3s ease;
+      }
+      h1 {
+        font-size: 3em;
+        color: #009688;
+        animation: colors 0.8s ease-in-out infinite;
+      }
+      h2 {
+        font-size: 3em;
+        color: #dc10a2;
+        animation: colors 2s ease-in-out infinite;
+      }
+      p {
+        font-size: 3.5em;
+        color: #3ee2bc;
+        font-weight: bold;
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+
+      @keyframes colors {
+        0% {
+          color: #15d815;
+        }
+
+        50% {
+          color: #ffff;
+        }
+
+        100% {
+          color: rgb(207, 145, 251);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        Ramadan Mubarak <br />رمضان مبارك <br />رمضان كريم <br />كل عام وأنتم
+        بخير <br />تقبل الله منا ومنكم
+      </h1>
+      <h2>
+        Ramadan Kareem <br />Que vous soyez bien chaque année <br />Qu’Allah
+        accepte (nos jeûnes et prières) de notre part et de la vôtre
+      </h2>
+      <p>De la part de <span style="background-color: #fff"> A.K.N@</span></p>
+    </div>
+  </body>
+</html>
